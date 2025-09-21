@@ -1,0 +1,26 @@
+export declare const isValidEmail: (email: string) => boolean;
+export declare const isValidPhone: (phone: string) => boolean;
+export declare const validatePassword: (password: string) => {
+    isValid: boolean;
+    errors: string[];
+};
+export declare const isValidPrice: (price: number) => boolean;
+export declare const isValidUrl: (url: string) => boolean;
+export declare const isValidName: (name: string) => boolean;
+export declare const isValidBusinessName: (name: string) => boolean;
+export declare const isValidServiceTitle: (title: string) => boolean;
+export declare const isValidDescription: (description: string, minLength?: number, maxLength?: number) => boolean;
+export declare const isValidDuration: (duration: number) => boolean;
+export declare const isValidRating: (rating: number) => boolean;
+export declare const isValidCoordinate: (lat: number, lng: number) => boolean;
+export declare const isValidFileSize: (size: number, maxSizeMB?: number) => boolean;
+export declare const isValidImageType: (type: string) => boolean;
+export declare const sanitizeString: (input: string) => string;
+export declare const isValidBookingTime: (bookingTime: string) => boolean;
+export declare const isValidServiceCategory: (category: string) => boolean;
+export declare const isValidPriceType: (priceType: string) => boolean;
+export declare const isValidLocationType: (locationType: string) => boolean;
+export declare const isValidUserRole: (role: string) => boolean;
+export declare const isValidBookingStatus: (status: string) => boolean;
+export declare const isValidNotificationType: (type: string) => boolean;
+export declare const isValidNotificationPriority: (priority: string) => boolean;
